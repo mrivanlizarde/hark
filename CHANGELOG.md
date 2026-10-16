@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-15: shipped as Hark, free with a tip jar
+
+The README still called this "Transcribe (working name)" and led with the command-line
+prototype, though the app has been Hark since August. It now leads with the app and gives
+honest build-from-source steps (Hark isn't notarized), checked that day: the release build
+runs on macOS 26.0 and up, and a two-speaker test clip came back with both speakers labeled
+correctly. The repo is renamed `hark`; GitHub redirects the old transcribe-app links, so the
+one Gabriel was sent still works. Tip jar added (buymeacoffee.com/mrivanlizarde) in the
+README and `.github/FUNDING.yml`, the same as Coffee Cup.
+
 ## 2026-10-01: Public, under the MIT licence
 
 The repo went public so a friend could install Hark from a link. Before the switch, the full

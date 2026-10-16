@@ -21,7 +21,7 @@ NAME="Transcribe with Hark"
 
 if [[ ! -d "$APP" ]]; then
   echo "Hark is not installed at $APP." >&2
-  echo "Run: cd ~/Code/transcribe-app && ./make-app.sh release --install" >&2
+  echo "Run: ./make-app.sh release --install  (from the repo folder)" >&2
   exit 1
 fi
 
